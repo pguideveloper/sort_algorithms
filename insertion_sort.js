@@ -7,7 +7,7 @@
 * And the left card will increase (+1) your position. 
 */
 
-function crescent_insertion_sort(vector) {
+function ascending_insertion_sort(vector) {
 
 	var i; 
 	var j;
@@ -33,7 +33,7 @@ function crescent_insertion_sort(vector) {
 	return vector; 
 }
 
-function decrescent_insertion_sort(vector) {
+function descending_insertion_sort(vector) {
 
 	var i; 
 	var j;
@@ -56,5 +56,5 @@ function decrescent_insertion_sort(vector) {
 
 vector = [31, 41, 59, 26, 41, 58];
 
-// crescent_insertion_sort(vector);
-// decrescent_insertion_sort(vector);
+// ascending_insertion_sort(vector);
+// descending_insertion_sort(vector);
